@@ -18,8 +18,10 @@ num start
 ![week4](https://user-images.githubusercontent.com/56163157/213098737-d46e4e47-dc53-4877-9a56-39abcad11f85.gif)
 ## 💡Best Practice 및 협업 과정
 
+#### [협업과정](https://github.com/pre-onboading-eleven/pre-onboarding-8th-4-11/wiki)
 #### [1. Redux Saga를 이용한 비동기 호출](https://github.com/pre-onboading-eleven/pre-onboarding-8th-4-11/wiki/1.-Redux-Saga%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%98%B8%EC%B6%9C)
 #### [2. 페이지네이션](https://github.com/pre-onboading-eleven/pre-onboarding-8th-4-11/wiki/2.-%ED%8E%98%EC%9D%B4%EC%A7%80%EB%84%A4%EC%9D%B4%EC%85%98)
+#### [3. CRUD](https://github.com/pre-onboading-eleven/pre-onboarding-8th-4-11/wiki/3.-CRUD)
 
 
 ## 👨‍👩‍👧‍👦 팀 소개
