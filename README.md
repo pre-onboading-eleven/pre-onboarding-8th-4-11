@@ -15,8 +15,7 @@ num start
 
 ## 🎬 기능 소개
 
-![검색창 구현](https://user-images.githubusercontent.com/107922059/212015257-bd00cdcd-3ac0-414c-ba0e-05d829f432a6.gif)
-
+![week4](https://user-images.githubusercontent.com/56163157/213098737-d46e4e47-dc53-4877-9a56-39abcad11f85.gif)
 ## 💡Best Practice 및 협업 과정
 
 #### [1. Redux Saga를 이용한 비동기 호출](https://github.com/pre-onboading-eleven/pre-onboarding-8th-4-11/wiki/1.-Redux-Saga%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%98%B8%EC%B6%9C)
