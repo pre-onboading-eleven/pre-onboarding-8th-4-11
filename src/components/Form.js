@@ -49,16 +49,12 @@ function Form() {
 
     if (commentData.id) {
       apis.putComment(comment, commentData.id);
-      setTimeout(() => {
-        dispatch(commentsActions.getComments(page));
-      }, 200);
+      dispatch(commentsActions.getComments(page));
     }
 
     if (!commentData.id) {
       apis.postComment(comment);
-      setTimeout(() => {
-        dispatch(commentsActions.getComments(1));
-      }, 200);
+      dispatch(commentsActions.getComments(1));
     }
 
     setComment({
