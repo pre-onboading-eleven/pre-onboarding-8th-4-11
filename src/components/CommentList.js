@@ -42,10 +42,17 @@ function CommentList() {
   const dispatch = useDispatch();
   const comments = useSelector(state => state.comments.pagenationComments);
 
-  const handleDelete = (event, id) => {
+  const handleDelete = (event, commentId) => {
     event.preventDefault();
-    apis.deleteComment(id);
+    apis.deleteComment(commentId);
     dispatch(commentsActions.getComments(1));
+  };
+
+  const handlePut = async (event, commentId) => {
+    event.preventDefault();
+    const comment = await apis.getCommentDetail(commentId);
+
+    dispatch(commentsActions.getComment(comment.data));
   };
 
   return comments.map((comment, key) => (
@@ -59,7 +66,7 @@ function CommentList() {
       <Content>{comment.content}</Content>
 
       <Button>
-        <a>수정</a>
+        <a onClick={event => handlePut(event, comment.id)}>수정</a>
         <a onClick={event => handleDelete(event, comment.id)}>삭제</a>
       </Button>
 
