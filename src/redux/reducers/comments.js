@@ -21,7 +21,9 @@ const commentsSlice = createSlice({
       state.comments = action.payload;
       state.loading = false;
     },
-    getComment: (state, action) => {},
+    getComment: (state, action) => {
+      state.comment = action.payload;
+    },
     getPagenationSuccess: (state, action) => {
       state.pagenationComments = action.payload;
       state.loading = false;
