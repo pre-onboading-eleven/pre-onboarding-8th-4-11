@@ -109,28 +109,28 @@ num start
 ## 🌲 src 폴더 구조
 ```
 src
- ┣ class
- ┃ ┣ CacheRepository.ts
- ┃ ┣ HttpClient.ts
- ┃ ┗ SearchService.ts
+ ┣ apis
+ ┃ ┗ apis.js
  ┣ components
- ┃ ┣ AutocompleteBar.tsx
- ┃ ┣ MagnifyGlass.tsx
- ┃ ┗ SearchBar.tsx
- ┣ constant
- ┃ ┗ constants.ts
- ┣ context
- ┃ ┗ SearchContext.tsx
- ┣ lib
- ┃ ┗ debounce.ts
- ┣ store
- ┃ ┗ recoil_state.ts
- ┣ types
- ┃ ┗ types.ts
- ┣ App.tsx
- ┣ index.css
- ┣ main.tsx
- ┗ vite-env.d.ts
+ ┃ ┣ CommentList.js
+ ┃ ┣ Form.js
+ ┃ ┗ PageList.js
+ ┣ containers
+ ┃ ┣ CommentListContainer.js
+ ┃ ┣ FormContainer.js
+ ┃ ┗ PageListContainer.js
+ ┣ redux
+ ┃ ┣ reducers
+ ┃ ┃ ┗ comments.js
+ ┃ ┣ sagas
+ ┃ ┃ ┗ commentsSaga.js
+ ┃ ┗ store.js
+ ┣ App.js
+ ┣ App.test.js
+ ┣ index.js
+ ┣ logo.svg
+ ┣ reportWebVitals.js
+ ┗ setupTests.js
  
 ```
 
