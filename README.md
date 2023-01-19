@@ -138,7 +138,7 @@ src
 
 ## ⚒️ 기술 스택 / 라이브러리
 
-JavaScript, React, Styled Component, Redux, React Redux, Redux Toolkit, Redux Saga
+`JavaScript` `React` `Styled Component` `Redux` `React Redux` `Redux Toolkit` `Redux Saga` `Axios`
 
 ## 📝 Commit message Convention & branch 전략
 
