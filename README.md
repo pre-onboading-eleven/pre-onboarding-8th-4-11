@@ -8,8 +8,8 @@
 
 ```
 npm install
-npm run api
-num start
+npm run api // server 가동
+num start // 실행
 ```
 
 
