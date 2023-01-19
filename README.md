@@ -15,7 +15,9 @@ num start
 
 ## 🎬 기능 소개
 
-![week4](https://user-images.githubusercontent.com/56163157/213098737-d46e4e47-dc53-4877-9a56-39abcad11f85.gif)
+
+<img src = "https://user-images.githubusercontent.com/56163157/213098737-d46e4e47-dc53-4877-9a56-39abcad11f85.gif" width="60%" height="height 60%">
+
 ## 💡Best Practice 및 협업 과정
 
 #### [협업과정](https://github.com/pre-onboading-eleven/pre-onboarding-8th-4-11/wiki)
